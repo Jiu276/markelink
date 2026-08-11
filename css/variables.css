@@ -1,0 +1,19 @@
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #06b6d4;
+  --accent: #0ea5e9;
+  --bg: #f8fafc;
+  --bg-alt: #eff6ff;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --card: #ffffff;
+  --hero-overlay: linear-gradient(135deg, rgba(37,99,235,0.88) 0%, rgba(6,182,212,0.75) 100%);
+  --radius: 8px;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+  --shadow-lg: 0 12px 48px rgba(0,0,0,0.12);
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
