@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
   <title>Product | Markelink</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +37,7 @@
       el.innerHTML = '<div class="empty-state"><h2>Product Not Found</h2><p><a href="products.html">Back to Products</a></p></div>';
     } else {
       document.title = product.name + ' | Markelink';
-      const stars = 'â˜…'.repeat(Math.floor(product.rating));
+      const stars = 'â˜?.repeat(Math.floor(product.rating));
       el.innerHTML = `
         <div class="product-detail-image"><img src="${product.image}" alt="${product.name}"></div>
         <div class="product-detail-info">
